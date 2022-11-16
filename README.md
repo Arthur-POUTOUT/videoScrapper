@@ -65,4 +65,7 @@ L'output est un fichier json de la forme :
 Lors de exécution de pytest, il ne trouve pas le module youtube_comment_downloader.
 
 Si on comment le code concernant ce module (import, methode _getComments() et appel de la méthode),
-Tous les tests ne concernant pas les commentaires passent
+Tous les tests ne concernant pas les commentaires passent.
+
+L'exécution en commande réussi à trouver le module.
+Je n'ai pas réussi à résoudre le problème d'import du module avec pytest
